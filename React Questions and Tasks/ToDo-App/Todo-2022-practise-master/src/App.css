@@ -1,0 +1,87 @@
+/* App */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+	height: 100%;
+	width: 100%;
+	max-width: 1440px;
+	line-height: 1.6;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.TodoContainer {
+	max-width: 720px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* New Todo Form */
+
+/* iPhone 12 as benchmark for mobiles */
+@media screen and (max-width: 844px) {
+	.custom-w-55 {
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 845px) {
+	.custom-w-55 {
+		width: 55%;
+	}
+}
+
+/* Todo List */
+
+.margin-x-max {
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+
+.btn-container {
+	display: flex;
+	margin-left: auto;
+}
+
+.task-name {
+	/* mr-1 didn't want to work. */
+	margin-right: 1rem;
+}
+
+.todo-item {
+	width: 360px !important;
+	margin-bottom: 1rem;
+	border-radius: 0.25rem;
+}
+
+/* Footer */
+
+.social-media-img {
+	height: 80px;
+	margin-bottom: 2rem;
+}
+
+/* Svg icons */
+.social-media-icon {
+	font-size: 60px;
+	color: #e39b41;
+}
+
+.social-media-icon:nth-child(2) {
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+.social-media-icon:hover {
+	color: #ffff;
+}
