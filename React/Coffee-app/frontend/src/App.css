@@ -1,0 +1,67 @@
+/* App */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+	height: 100%;
+	width: 100%;
+	max-width: 1440px;
+	line-height: 1.6;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.CoffeeContainer {
+	max-width: 844px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Coffee List */
+
+.coffee-name {
+	font-size: 1.5rem !important;
+	font-weight: 700 !important;
+}
+
+.coffee-item {
+	width: 360px !important;
+	margin-bottom: 1rem;
+	border-radius: 0.25rem;
+}
+
+/* Coffee Form */
+.form-button {
+	width: 100% !important;
+}
+
+/* Footer */
+
+.social-media-img {
+	height: 80px;
+	margin-bottom: 2rem;
+}
+
+/* Svg icons */
+.social-media-icon {
+	font-size: 60px;
+	color: #e39b41;
+}
+
+.social-media-icon:nth-child(2) {
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+.social-media-icon:hover {
+	color: #ffff;
+}
